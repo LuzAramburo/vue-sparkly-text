@@ -34,3 +34,35 @@ body {
     background-color: #ffffff;
   }
 }
+
+.button-group {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.button {
+  margin: 0 1rem;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  font-weight: 600;
+  padding: 8px 18px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: all 0.4s;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.button svg {
+  margin-right: 0.5em;
+}

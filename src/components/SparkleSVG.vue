@@ -23,6 +23,7 @@ onUnmounted(() => clearInterval(interval))
 
 <template>
   <svg
+      class="svg"
       v-if="showSparkle"
       viewBox="0 0 1200 1200"
       :fill="color"
@@ -43,7 +44,7 @@ onUnmounted(() => clearInterval(interval))
 </template>
 
 <style scoped>
-svg {
+.svg {
   position: absolute;
   opacity: 0;
   animation: sparkle-animation-x 0.5s ease-in-out infinite alternate;
@@ -60,10 +61,10 @@ svg {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  svg {
-  animation: none;
-  opacity: 1;
-  transform: rotateZ(30deg) scale(1);
+  .svg {
+    animation: none;
+    opacity: 1;
+    transform: rotateZ(30deg) scale(1);
   }
 }
 </style>

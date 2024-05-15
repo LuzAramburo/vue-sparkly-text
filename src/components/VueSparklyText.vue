@@ -1,3 +1,7 @@
+<script lang="ts">
+export default { name: 'VueSparklyText' }
+</script>
+
 <script setup lang="ts">
 import SparkleSVG from "./SparkleSVG.vue";
 import {toRefs} from "vue";
