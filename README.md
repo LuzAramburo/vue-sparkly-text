@@ -6,7 +6,7 @@ npm i vue-sparkly-text
 # 🪡 Usage
 
 ```javascript
-import { ReactSparklyText } from "vue-sparkly-text"
+import { VueSparklyText } from "vue-sparkly-text"
 ``` 
 
 ```html
