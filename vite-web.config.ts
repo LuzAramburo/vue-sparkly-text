@@ -5,6 +5,7 @@ import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  base: "https://luzaramburo.github.io/vue-sparkly-text/",
   build: {
     outDir: path.join(__dirname, "docs"),
     }
