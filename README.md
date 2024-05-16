@@ -7,6 +7,7 @@ npm i vue-sparkly-text
 
 ```javascript
 import { VueSparklyText } from "vue-sparkly-text"
+import "vue-sparkly-text/style.css"
 ``` 
 
 ```

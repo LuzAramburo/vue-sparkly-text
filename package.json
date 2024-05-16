@@ -1,6 +1,23 @@
 {
   "name": "vue-sparkly-text",
-  "private": true,
+  "author": "LuzAramburo",
+  "description": "Make your text * sparkly *",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuzAramburo/vue-sparkly-text.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LuzAramburo/vue-sparkly-text/issues"
+  },
+  "homepage": "https://luzaramburo.github.io/vue-sparkly-text/",
+  "license": "MIT",
+  "keywords": [
+    "sparkle",
+    "vue-sparkle",
+    "vue-sparkly-text",
+    "sparkly",
+    "vue-sparkly"
+  ],
   "version": "1.0.0",
   "type": "module",
   "files": ["dist"],
