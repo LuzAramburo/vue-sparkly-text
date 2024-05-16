@@ -9,7 +9,7 @@ npm i vue-sparkly-text
 import { VueSparklyText } from "vue-sparkly-text"
 ``` 
 
-```html
+```
 <p>Lorem ipsum dolor <VueSparklyText>sparkly text</VueSparklyText> sit amet.</p>
 ```
 

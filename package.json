@@ -17,6 +17,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "build:web": "vue-tsc && vite build --config vite-web.config.ts",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build -o ./docs/storybook"
