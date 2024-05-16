@@ -20,5 +20,5 @@ Licensed under MIT
 # ✨ Thanks to
 
 🙏🏼 Thanks to mburakerman and stefanjudis
-- https://github.com/mburakerman/react-sparkly-tex
+- https://github.com/mburakerman/react-sparkly-text
 - https://github.com/stefanjudis/sparkly-text

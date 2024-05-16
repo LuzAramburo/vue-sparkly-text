@@ -34,6 +34,5 @@ const generateRandomTimeout = () => Math.floor(Math.random() * (3200 - 2200) + 2
   position: relative;
   width: max-content;
   font-weight: bolder;
-  background: #ff4400;
 }
 </style>
